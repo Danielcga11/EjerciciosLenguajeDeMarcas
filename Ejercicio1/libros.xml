@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <biblioteca>
+  <libro>
+   <titulo>Introducción a XML</titulo>
+	<autor>Juan Pérez</autor>
+	<anio>2024</anio>
+  </libro>
+  <libro>
+   <titulo>Desarrollo Web </titulo>
+	<autor>Ana Gómez</autor>
+	<anio>2023</anio>
+  </libro>
+  <libro>
+   <titulo>Bases de Datos</titulo>
+	<autor>Carlos Ruiz</autor>
+	<anio>2022</anio>
+  </libro>
+</biblioteca>
