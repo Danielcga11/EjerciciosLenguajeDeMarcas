@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Apartado 3</title>
+  <meta charset="utf8">
+</head>
+<body>
+<header style="background-color: midnightblue; color: whitesmoke; text-align: center; padding: 30px;">
+    <h1>
+        Fragmento de codigo Java
+    </h1>
+</header>
+<main>
+    <h2>
+        Dadas las variables a, b, c, d y e de tipo int, inicializadas con los valores -9, 21, -35, 51 y 33
+        respectivamente, crea una sola expresión que realice las operaciones siguientes:
+    </h2>
+    <ul>
+        <li>
+            Sumar los valores almacenados en a y b y multiplicar el resultado por el valor almacenado
+            en e.
+        </li>
+        <li>
+            Dividir el resultado de la operación anterior entre el resto de dividir el valor almacenado en
+            d entre el valor almacenado en c.
+        </li>
+        <li>
+            Almacenar en una variable f el resultado parcial que se obtiene de la operación descrita en
+            el primer punto.
+        </li>
+    </ul>
+    <h2>
+        Solución
+    </h2>
+
+    <pre style="background-color: #1e1e1e; color: whitesmoke;">
+    <font color="#569CD6">public class</font> <font color="#4EC9B0">Main</font> {
+
+        <font color="#569CD6">public static void</font> main(String[] args){
+
+            <font color="#569CD6">// Ejercicio 1</font>
+            <font color="#569CD6">int</font> a = -9, b = 21, c = -35, d = 51, e = 33;
+
+            <font color="#569CD6">int</font> f = (a + b) * e;
+            <font color="#569CD6">int</font> resultadoIntermedio = d % c;
+            <font color="#569CD6">int</font> resultado = f / resultadoIntermedio;
+
+            <font color="#569CD6">boolean</font> comparacion1 = a &lt; b;
+            <font color="#569CD6">boolean</font> comparacion2 = c != d;
+
+            System.out.println(<font color="#CE9178">"Resultados Ejercicio 1"</font>);
+            System.out.println(f);
+            System.out.println(resultado);
+            System.out.println(comparacion1);
+            System.out.println(comparacion2);
+        }
+    }
+    </pre>
+
+</main>
+<footer style="background-color: #000000; padding: 30px;">
+    <h3 style="color: whitesmoke;">
+        Daniel Corte Gamón 2026
+    </h3>
+</footer>
+</body>
+</html>
